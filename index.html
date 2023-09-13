@@ -5,15 +5,11 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="main.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
-body, html {
-  height: 100%;
-  color: #777;
-  line-height: 1.8;
-}
+
 
 /* Create a Parallax Effect */
 .bgimg-1, .bgimg-2, .bgimg-3 {
@@ -64,10 +60,12 @@ body, html {
     <a href="#home" class="w3-bar-item w3-dark-grey w3-button">HOME</a>
     <a href="#about" class="w3-bar-item w3-dark-grey w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT THE AUTHOR</a>
     <a href="#portfolio" class="w3-bar-item w3-dark-grey w3-button w3-hide-small"><i class="fa fa-th"></i> YOUR WORLD</a>
+    <a href="#interview" class="w3-bar-item w3-dark-grey w3-button w3-hide-small"><i class="fa fa-th"></i> FAQ: YOUR WORLD</a>
     <a href="#reviews" class="w3-bar-item w3-dark-grey w3-button w3-hide-small"><i class="fa fa-th"></i> RAVE REVIEWS</a>
     <a href="#contact" class="w3-bar-item w3-dark-grey w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
-      <i class="fa fa-search"></i>
+    <a href="https://www.amazon.com/Your-World-Pamela-R-Weissman/dp/1735982105/" class="w3-bar-item w3-red w3-button w3-hide-small ">BUY NOW!</a>
+   <!-- <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+      <i class="fa fa-search"></i>-->
     </a>
   </div>
 
@@ -75,9 +73,11 @@ body, html {
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
     <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT THE AUTHOR</a>
     <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">YOUR WORLD</a>
+    <a href="#interview" class="w3-bar-item w3-button" onclick="toggleFunction()"> FAQ: YOUR WORLD</a>
     <a href="#reviews" class="w3-bar-item w3-button" onclick="toggleFunction()">RAVE REVIEWS</a>
     <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
-    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+    <a href="https://www.amazon.com/Your-World-Pamela-R-Weissman/dp/1735982105/" class="w3-bar-item w3-button w3-red" onclick="toggleFunction()">BUY NOW!</a>
+    <!--<a href="#" class="w3-bar-item w3-button">SEARCH</a>-->
   </div>
 </div>
 
@@ -91,10 +91,7 @@ body, html {
 <!-- Container (About Section) -->
 <div class="w3-content w3-container w3-padding-64" id="about">
   <h3 class="w3-center">Pamela Weissman - Author</h3>
-  <p class="w3-center"><em>I love photography</em></p>
-  <p>We have created a fictional "personal" website/blog, and our fictional character is a hobby photographer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-    qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  
   <div class="w3-row">
     <div class="w3-col m6 w3-center w3-padding-large">
       <!--<p><b><i class="fa fa-user w3-margin-right"></i>Pamela Weissman</b></p><br>-->
@@ -103,9 +100,26 @@ body, html {
 
     <!-- Hide this text on small devices -->
     <div class="w3-col m6 w3-hide-small w3-padding-large">
-      <p>Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
-        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <p>Pam Weissman is a Social Worker in Private Practice in Baltimore, Maryland. <br> <br>
+    Originally from
+    Metuchen, New Jersey, Pam was raised in a very loving home, but not unlike most of us, it was
+    filled with all kinds of chaos as well. One of the greatest gifts of her life was having her
+    grandmother live in her house, with Pam and her three older brothers, mother and father.
+    <br><br>
+    “My grandmother brought many of the features highlighted in the book to life: humor, nurturance
+    and stability, for starters.”
+    <br><br>
+    Her parents taught Pam about respecting and admiring others in a very open and humble
+    fashion, something she did not realize was internalized until many years later.
+    Pam and her husband, Neil raised four children, themselves all adults, partnered and parents.
+    Each member of her family served as a driving force toward the creation of Your World.
+    <br><br>
+     “I see
+    the mistakes I have made and I see the power of reconciliation and communication. Life is like
+    
+    climbing a mountain. The higher up you go, the better the view. So this book comes with heart
+    and perspective.”<br> <br>
+    Your World is her first book.</p>
     </div>
   <!--</div>
   <p class="w3-large w3-center w3-padding-16">Im really good at:</p>
@@ -151,52 +165,183 @@ body, html {
 </div>
 
 <!-- Container (Portfolio Section) -->
+
 <div class="w3-content w3-container w3-padding-64" id="portfolio">
   <h3 class="w3-center">About YOUR WORLD</h3>
-  <p class="w3-center"><em>Here are some of my latest lorem work ipsum tipsum.<br> Click on the images to make them bigger</em></p><br>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <!--<p><b><i class="fa fa-user w3-margin-right"></i>Pamela Weissman</b></p><br>-->
+      <img src="./Images/PamTest.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
+    </div>
+  <p class="w3-center"><em>
+    Your World is a comforting message for parents and all grown ups that have a child under their
+    care. 
+    It can also be a source of comfort to anyone at all. <br> <br>
+    Part poem, part prose, Your World is a journey through childhood from birth and is a response to
+    the fact that we are each inevitably faced with life’s harder and painful sides. We will have
+    challenges growing up. We will grow disenchanted with our inner world, sometimes, our homes
+    and sometimes as we grow aware of the challenging parts of history we will learn about. But, it
+    is also a reminder that we have what it takes to be a force of stability and so much more for our
+    children (and others in our lives). <br> <br>
+    Magnificently illustrated, allow yourself to read each word and savor the moments you have with
+    the text and allow it, ultimately to soothe you.</em></p><br>
 
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
-  <div class="w3-row-padding w3-center">
-    <div class="w3-col m3">
-      <img src="./Images/PamTest.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
-    </div>
-
-    <!--<div class="w3-col m3">
-      <img src="/w3images/p2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Coffee beans">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="/w3images/p3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="/w3images/p4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet ocean">
-    </div>
-  </div>
-
-  <div class="w3-row-padding w3-center w3-section">
-    <div class="w3-col m3">
-      <img src="/w3images/p5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="/w3images/p6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="My beloved typewriter">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="/w3images/p7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="/w3images/p8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
-    </div>
-    <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>
-  </div>-->
+  
+    
 </div>
+<!-- Container (Interview Section) -->
+
+<div class="w3-content w3-container w3-padding-64" id="interview">
+  <h3 class="w3-center">FAQ:  About YOUR WORLD</h3>
+  <div class="w3-row">
+    
+  <p class="w3-left">
+   
+Q:<br>
+Pam, this book is not exactly typical. It is for parents and teachers, but it is illustrated.
+It has the feel of a children’s book even though the content is rather mature.
+Can you speak to that? <br>
+A:<br>
+Great question. And believe me, I am aware of this. The most important quality of any book is to
+know who it is for, which is why on the cover boldly written it says, “A Book of Comfort for
+Parents, Teachers and Caregivers to Benefit Kids of all ages.”
+It is a book for all of us in one way or another.
+And I am happily guilty of producing that.
+Your World is meant to serve as a source of comfort, truly for anyone.
+Let’s say, you are feeling down. It tells you that, life is hard and the challenges are guaranteed.
+But it also asks that you internalize what we each deserve-ideally from the ones we love and in
+our orbit, but even from ourselves. We can give ourselves compassion and understanding. We
+have what it takes to breathe in peace of mind.
+<br> <br>
+Q:<br>
+But it is illustrated! <br>
+A:<br>
+Ha! Wait! Is that an accusation? Ha!
+Seriously, If you think about it, what is an adult? A child with more responsibilities! We still have
+many of the same needs for connection and peace of mind.
+So, why can’t adults enjoy an illustrated book? Right? So many parenting books, which are
+phenomenal and can become game changers are great if you have the sitzfleisch to sit through
+them.
+Your World is a soothing experience. And it’s many messages and lessons are straight and to
+the point. And serve as food for thought. And besides, those illustrations by Alli Fisher are
+gorgeous. Enjoy and meditate them internally. Go for it!
+A 16 year old client of mine read it and said, “It is like drinking a warm cup of tea with a warm
+blanket.” A nine year old read it and said, “This is what grown up are supposed to do.”
+Sorry, but anyone can learn from it. I am still trying to ;)))
+<br> <br>
+Q:<br>
+Walk us through the process, how you originally envisioned Your World.
+<br>
+A:<br>
+Originally, from the day of its inception, Your World was meant to be a book f o r
+children. Not a children’s book, per se. I did, yes, have a vision for it.
+
+And that is because of my oldest granddaughter.
+She was three years old at the time. (She is a teenager now. Gulp.)<br> <br>
+
+Q:<br>
+Your granddaughter? Ha. Say more.<br>
+A:<br>
+She comes home from school one day (or was it a play date?) and she was really sad. She and
+her mom and I were in the kitchen as she talked about something that went wrong with her
+young friend.
+I immediately thought to myself, “Here it comes. Welcome to the world. You have been officially
+disappointed by someone else. Oh boy, is there ever more of that to come your way!”
+It was not a big deal per se but I could see the confusion in her eyes and the beginning of the
+loss of innocence begin to seep in.
+I then heard myself think- “But we are here for you. Even though the world can be rough at
+times, Your World, does not have to be.”
+So, that night I wrote the book in my head and in the morning ran over to my laptop. I needed
+her and her siblings and cousins and all the children, yes, in the whole wide world to know that
+several inevitabilities were coming their way.
+And with it all, we got their backs.
+<br> <br>
+Q:<br>
+I see. Such as the historical traumas that you reference?<br>
+A:<br>
+You got it- plus more. We are all privy, as members of humanity, to life’s many challenges and
+also, to historical trauma. You can call it transgenerational trauma as well, such as descendants
+of slavery.
+In broad terms, many are victims themselves and many are descendants of victims. And they
+wear that pain as well.
+But this is not just about victimhood. Imagine being a culprit or the descendant of a criminal.
+Think about what it is like to be a descendant of a Nazi? Just as an example. Or someone
+whose family is part of a White Supremacist group. Or has a clear history of enslavement.
+Something to ponder.
+Also, even if we did not experience the historical traumas through our ancestry, we can feel
+them with compassion vicariously.
+As an example, I am not a second generation child of Holocaust survivors but I am educated in
+that area as a member of my faith. And I promise you, I am forever impacted.
+<br> <br>
+Q:<br>
+You choose the word “trauma” to describe these events.<br>
+A:<br>
+Ya, I do. There is history there.
+One day, while receiving supervision with a group of psychotherapy colleagues, all of us
+facilitating groups for survivors of childhood abuse or domestic violence, I heard myself say, I
+think we tend to use the word Trauma too readily. When one colleague looked me square in the
+eyes, and said, “Pam, living is traumatic.”
+It validated experiences I have gone through personally and others with whom I am very close.
+She is not wrong. Everything is a matter of degree of course.
+<br> <br>
+Q:<br>
+How did you choose the three events you did for Your World?<br>
+A:<br>
+Oh, easy. Ugh! When I was eight, and in the 2nd grade, Martin Luther King Jr was tragically
+assassinated and that was just really, really bad. I remember the expression on my teacher’s
+face. She looked ill. My 2nd grade classmates and I l picked up her cues that this was a
+watershed moment in our history.
+We are impressionable at every age. Every age. Watch what you say in front of those under
+your care. 
+The plight of people of color has been so close to home for me as well. I grew up in the 60’s and
+70’s reading Ebony magazine because my parents subscribed to it. My neighbors one block
+over were actually wealthy African Americans with beautiful lawns and cars. They were so
+together. But it was clear that the Civil Rights Movement was something that my parents
+endorsed so much so that when I dated a black guy, my mother said to me, “Well, that’s fine. It’s
+how you grew up.”
+<br><br>
+Q:<br>
+What about Memorial Day and International Holocaust Remembrance Day (IHRD)? <br>
+A:<br>
+Memorial Day was an easy choice as well. I just feel that we have to know what war
+heroes/veterans do for each of our countries-men and women on the front lines protecting us.
+On a personal note, this section (Memorial Day in the U.S. and Israel or Remembrance Day
+elsewhere) is my way to homage to my father in law, Irving Weissman, who served in the Battle
+of Normandy in France during WWII as a 17 year old.
+Orphaned (maternally) and poor, but wise and determined, he managed to get himself into
+Cornell University with the GI Bill and then Fordham Law and with my mother in law raised an
+incredible family. That man deserves props every day of our lives.
+IHRD, was a no-brainer. Like I said, I am a bit of a “mess” from the persecution of my people.
+And I have an agenda in the book to remind the world that this was a Jewish Problem, of course
+but we were, in fact, not the only ones. So, for those who deny the Holocaust, well, if you are
+Gay or Trans or Black or Gypsy or if you had differing beliefs at that time, then your life and all
+your loved ones was soon to be terrorized during the Second World War.
+<br><br>
+
+Q: Word has it this that “Your World” was not the original title.
+<br>
+A: <br>
+Ha. Yes! The title, get this, was originally “You are Holding the Book of Love.”
+
+<br> <br>
+Q:<br> Really? What is the evolution there?<br>
+A:<br>
+I still feel this way today. I always wanted my kids and my grandkids to have a
+strong sense of security, firmly rooted and to know that we love them (for starters).
+And by children, this eventually came to mean, my children’s partners as well.
+So I wanted the actual object, the book itself to act as a soothing source of comfort.
+That, just by reading it, by holding it, that they can feel that sense of security.</p><br>
+
+ 
+  
+    
+</div>
+
 <!-- Container (Reviews Section) -->
 <div class="w3-content w3-container w3-padding-64" id="reviews">
   <h3 class="w3-center">What People are Saying</h3>
-  <p class="w3-center"><em>Rave reviews are coming fast.<br> Click on the images to make them bigger</em></p><br>
+  <p class="w3-center"><em>Rave reviews are coming fast.<br></em></p><br>
 <br>
   <p class="w3-left">A beautiful and important book.   As the reader is gently invited to grapple with some of the more tragic moments in our history, as well as the challenges we face in our interactions with others, the author lovingly reassures us that we can navigate even the most difficult experiences when we are securely attached, comforted, and connected to others.  Everything in life is more manageable when we don't have to face it alone: a powerful reminder to children and adults alike. </p>
  <br>
@@ -237,19 +382,27 @@ body, html {
 <!-- Container (Contact Section) -->
 <div class="w3-content w3-container w3-padding-64" id="contact">
   <h3 class="w3-center">Contact Me</h3>
-  <p class="w3-center"><em>Comments/Reviews/Thoughts</em></p>
+ <!-- <h4 class="w3-center"><em>Comments/Reviews/Thoughts</em></h4> -->
+ 
+  <h4 class = "w3-center"><em>Email: pamelaweissman.com</em></h4>
+  
+  <a href="https://www.amazon.com/Your-World-Pamela-R-Weissman/dp/1735982105/"><h4> <em>Purchase a copy today!</em></h4></a>
 
-  <div class="w3-row w3-padding-32 w3-section">
+ 
+  <h4> I would love to hear from you!</h4>
+
+
+  <!--<div class="w3-row w3-padding-32 w3-section">
     <div class="w3-col m4 w3-container">
       <img src="/w3images/map.jpg" class="w3-image w3-round" style="width:100%">
     </div>
     <div class="w3-col m8 w3-panel">
       <div class="w3-large w3-margin-bottom">
-        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-left"></i> Baltimore, MD<br>
-        <!--<i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> <br>-->
-        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-left"></i> Email: npweissman@mbn.com<br>
+        <i class=" w3-xlarge w3-margin-center"></i> Baltimore, MD<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> <br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-center"></i> Email: npweissman@mbn.com<br>
       </div>
-      <p>I would love to hear from you</p>
+      
       <form action="/action_page.php" target="_blank">
         <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
           <div class="w3-half">
@@ -263,7 +416,7 @@ body, html {
         <button class="w3-button w3-black w3-right w3-section" type="submit">
           <i class="fa fa-paper-plane"></i> SEND MESSAGE
         </button>
-      </form>
+      </form> -->
     </div>
   </div>
 </div>
@@ -271,17 +424,17 @@ body, html {
 <!-- Footer -->
 <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
   <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-  <div class="w3-xlarge w3-section">
+  <!--<div class="w3-xlarge w3-section">
     <i class="fa fa-facebook-official w3-hover-opacity"></i>
     <i class="fa fa-instagram w3-hover-opacity"></i>
     <i class="fa fa-snapchat w3-hover-opacity"></i>
     <i class="fa fa-pinterest-p w3-hover-opacity"></i>
     <i class="fa fa-twitter w3-hover-opacity"></i>
     <i class="fa fa-linkedin w3-hover-opacity"></i>
-  </div>
+  </div>-->
   <!--<p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>-->
   <p>Powered by: Judy Pachino Websites <br>
-    Contact: pachinoj@gmail.com</p>
+    Contact: judypachino@gmail.com</p>
 </footer>
  
 <script>
