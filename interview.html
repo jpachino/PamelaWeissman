@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pam MY WORLD</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url('./Images/Background1.jpg');
+  min-height: 100%;
+}
+
+/* Second image (Portfolio) 
+.bgimg-2 {
+  background-image: url("./Images/PamTest.jpg");
+  min-height: 400px;
+}
+
+/* Third image (Contact) 
+.bgimg-3 {
+  background-image: url("./Images/PamTest.jpg");
+  min-height: 400px;
+}
+*/
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="./index.html" class="w3-bar-item w3-dark-grey w3-button">HOME</a>
+    <a href="./about.html" class="w3-bar-item w3-dark-grey w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT THE AUTHOR</a>
+    <a href="./portfolio.html" class="w3-bar-item w3-dark-grey w3-button w3-hide-small"><i class="fa fa-th"></i> YOUR WORLD</a>
+    <a href="./interview.html" class="w3-bar-item w3-dark-grey w3-button w3-hide-small"><i class="fa fa-th"></i> FAQ: YOUR WORLD</a>
+    <a href="./reviews.html" class="w3-bar-item w3-dark-grey w3-button w3-hide-small"><i class="fa fa-th"></i> RAVE REVIEWS</a>
+    <a href="./contact.html" class="w3-bar-item w3-dark-grey w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+    <a href="https://www.amazon.com/Your-World-Pamela-R-Weissman/dp/1735982105/" class="w3-bar-item w3-red w3-button w3-hide-small ">BUY NOW!</a>
+   <!-- <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+      <i class="fa fa-search"></i>-->
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="./index.html" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT THE AUTHOR</a>
+    <a href="./about.html" class="w3-bar-item w3-button" onclick="toggleFunction()">YOUR WORLD</a>
+    <a href="./portfolio.html" class="w3-bar-item w3-button" onclick="toggleFunction()"> FAQ: YOUR WORLD</a>
+    <a href="./interview.html" class="w3-bar-item w3-button" onclick="toggleFunction()"> FAQ: YOUR WORLD</a>
+    <a href="./reviews.html" class="w3-bar-item w3-button" onclick="toggleFunction()">RAVE REVIEWS</a>
+    <a href="./contact.html" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    <a href="https://www.amazon.com/Your-World-Pamela-R-Weissman/dp/1735982105/" class="w3-bar-item w3-button w3-red" onclick="toggleFunction()">BUY NOW!</a>
+    <!--<a href="#" class="w3-bar-item w3-button">SEARCH</a>-->
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text 
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-light-grey w3-xlarge w3-wide w3-animate-opacity">YOUR WORLD! </span>
+  </div>
+</div>-->
+
+<!-- Container (About Section) 
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">Pamela Weissman - Author</h3>-->
+  
+ 
+<!-- Container (Interview Section) -->
+
+<div class="w3-content w3-container w3-padding-64" id="interview">
+  <h3 class="w3-center">FAQ:  About YOUR WORLD</h3>
+  <div class="w3-row">
+    
+  <p class="w3-left">
+
+
+ Q: <br>
+
+Pam, this book is not exactly typical. It is not only for children, but parents and teachers. For all of us. 
+
+It has the feel of a children’s book even though the text shifts and becomes more mature.
+
+Can you speak to that? <br>
+
+
+
+A:<br>
+
+Sure. The most important quality of any book is to know who it is for, which is why on the cover, boldly it is written, “A Book of Comfort for Parents, Teachers and Caregivers to Benefit Kids of all ages.
+
+
+
+Your World is meant to serve as a source of comfort, truly for anyone.  It reminds us that where there is life there will often be burdens and extreme challenges. 
+
+
+
+It also offers that we internalize the beauty and bounty of our universe and to think about what we each deserve-ideally from the ones we love and from those in our orbit. And also from ourselves. We can give ourselves compassion and understanding. 
+
+I would like everyone to believe that we have what it takes to breathe in, ultimately, peace of mind. 
+
+The messages are FROM adults TO children and FOR adults as well. 
+
+
+<br><br>
+Q: <br>
+
+Tell us about how the beautiful text and illustrations came together.<br>
+
+
+
+A:<br>
+
+The illustrations are like the music and the text is like the lyrics of a song. 
+
+As Alli, the illustrator and I collaborated, we discovered how the words and the pictures informed each other. The collaboration was unforgettable. I loved every minute! 
+
+
+
+As a result (gotta share this!) here are some of the comments received:
+
+A 16 year old client said, “This book is like drinking a warm cup of tea next to a dimmed light with a warm blanket at night.” 
+
+
+
+A nine year old read it and asked Alli Fisher, “Is this what grown ups are supposed to do?” 
+
+
+
+A 48 year old client cried in session after she read it and said, “This is what I need to read along with my teen daughter.” 
+
+
+
+A 57 year old acquaintance commented, 
+
+“Pam, I read it slowly. That’s the only way to truly absorb it all.”
+
+
+
+
+
+<br><br>
+
+Q:<br>
+
+Walk us through the process, how you originally envisioned Your World.<br>
+
+A: <br>
+
+Originally, from the day of its inception, Your World was meant to be a book f o r 
+
+children. Not a children’s book, per se. 
+
+I did, yes, have a vision for it. 
+
+
+
+And that is due to an experience I had with my oldest granddaughter. 
+
+She was three years old at the time. (She is a teenager now!)
+
+
+
+She came home from school one day (or was it a play date?) and she seemed really upset, almost confused. She and her mom and I were in the kitchen. 
+
+We asked what happened. What went wrong? And as she began to explain in her three y/o language that something went wrong with a friend, I immediately thought to myself, “Here it comes. Welcome to the world. You have been officially disappointed by someone else. Oh boy, is there ever more of that to come your way!” 
+
+
+
+When I saw the confusion in her eyes and the loss of innocence begin to seep in, I heard myself think- “But we are here for you. Even though the world can be rough at times, Your World does not have to be.” 
+
+And then, I had images of all the things she would be exposed to and all the history she would learn. And that broke my heart!
+
+
+
+I then made a mental pledge of my allegiance as a mother and as a grandmother. 
+
+
+
+That very night I wrote the book in my head and in the morning ran over to my laptop. I needed her and her siblings and cousins and all the children, yes, in the whole wide world to know that several inevitabilities were coming their way. 
+
+But, with it all, we got their backs. <br><br>
+
+
+
+Q:<br> We have each others backs? <br>
+
+
+
+A: <br>
+
+I think of this book as a “Declaration of Dependance”. We live in a world where individualism is highly emphasized and concepts such as “being true to yourself” and not to worry what others think, a “you do you” kind of world is encouraged. 
+
+And that can be very liberating in many ways.
+
+
+
+The message here is a bit different though. It is saying that we really need each other. 
+
+I believe in a society of interdependence- to care for each other, to look after one another, to care how others see us, to provide a sense of acceptance and, most importantly, that of a solid attachment. It is basic biology.
+
+Our presence in each other’s lives is to be celebrated. Dependence is all part of a give and give society. 
+
+<br><br>
+
+Q: <br>
+
+I see. What about the historical traumas that you reference?
+
+
+<br>
+A: <br>
+
+We are all privy, as members of humanity, to historical trauma to some degree. However, when someone is born as the offspring or descendant of an ancestor that experienced traumas such as slavery or any form of genocide, or any of the abuses, there is a transmission of those traumatic experiences. 
+
+You can call it transgenerational trauma as well, such as, again, descendants of slavery.
+
+
+
+The dehumanization of a society creates a trickle down effect from one generation to the next. And to the next. 
+
+
+
+Also, even if we did not experience the historical traumas through our ancestry, we can feel them with compassion vicariously. 
+
+
+
+As an example, I am not a second generation child of Holocaust survivors but I am educated in that area as a member of my faith. And I promise you, I am forever impacted. Quite indelibly. 
+
+<br><br>
+
+
+
+Q: <br>
+
+How did you choose the three events for Your World?<br>
+
+A:<br>
+
+When I was eight years old, and in the 2nd grade, Martin Luther King Jr. was tragically assassinated. The news reached my school and I will never forget the expression on my teacher’s face. My classmates and I picked up her cues that this was a watershed moment in our history. I learned then, and life has confirmed, that we all need to be well-aware of the deleterious impact of racism and honor those that stand up against it. 
+
+
+
+In addition the message here is -Children are highly impressionable. 
+
+And-Teachers are big Influencers. Second to parents, the biggest. 
+
+<br><br>
+
+Q:<br>
+
+What about Memorial Day and International Holocaust Remembrance Day?<br>
+
+A:<br>
+
+I feel we have to know what war heroes/veterans do for each of our countries-men and women on the front lines, that they are protecting us and not take their efforts for granted. 
+
+Peace and safety, sadly, come at a cost. For some families, a grave cost.
+
+
+
+On a personal note, this section (Memorial Day in the U.S. or Remembrance Day elsewhere) is my way of paying homage to my father in law who served in the Battle of Normandy in France during WWII as a 17 year old. His courage was, like thousands of others, incomparable. 
+
+
+
+In addition, my husband has had the honor of working for over 30 years with veterans of the Armed Services. As a result, we have a greater appreciation of the sacrifices made by these men and women.
+
+
+
+I chose International Holocaust Remembrance Day because I have an agenda. And that is to recognize that in the world hate and evil exist and need to be courageously confronted. This is a scary reality. The Holocaust was the greatest crime committed against humanity in the 20th century-perhaps ever.
+
+
+
+I want to add that I hope that families and teachers feel free to insert events in history or current events that speak to them - to make this book all the more so, one’s own. 
+
+<br><br>
+
+Q: <br>
+
+Word has it that “Your World” was not the original title. <br>
+
+A:<br>
+
+Yes! The title was originally “You are Holding the Book of Love.”
+
+I wanted the actual object, the book itself to act as a soothing source of comfort.
+
+That, just by reading it, by holding it, one can feel a sense of security. Almost a take-along transitional object as one goes along in life. 
+
+
+
+Ultimately, one night I was trying to come up with a better title, when my husband calmly asked, “What about Your World?” I screamed, “YES, YES!”  
+
+I am very dependent upon him ;))))<br><br></p><br>
+
+
+    
+</div>
+
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#top" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <!--<div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>-->
+  <!--<p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>-->
+  <p>Powered by: Judy Pachino Websites <br>
+    Contact: judypachino@gmail.com</p>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
